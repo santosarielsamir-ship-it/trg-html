@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Anamnese TRG - Helena Paixão</title>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #f5f7fa, #e4ecf5);
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #2c3e50;
+}
+
+h3 {
+    text-align: center;
+    font-weight: normal;
+    color: #555;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 20px;
+}
+
+input[type="text"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 80px;
+}
+
+.radio-group, .checkbox-group {
+    margin-top: 8px;
+}
+
+.checkbox-group label,
+.radio-group label {
+    font-weight: normal;
+    display: block;
+    margin-top: 5px;
+}
+
+button {
+    margin-top: 40px;
+    padding: 14px;
+    width: 100%;
+    background-color: #2c3e50;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1a252f;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+<h1>Anamnese – T.R.G.</h1>
+<h3>Terapeuta: Helena Paixão</h3>
+
+<form action="https://formsubmit.co/mercadosamir402@gmail.com" method="POST">
+
+<input type="hidden" name="_subject" value="Nova Anamnese Recebida!">
+<input type="hidden" name="_captcha" value="false">
+<input type="hidden" name="_template" value="table">
+
+<label>Nome:</label>
+<input type="text" name="Nome" required>
+
+<label>Cidade:</label>
+<input type="text" name="Cidade">
+
+<label>Celular:</label>
+<input type="tel" name="Celular">
+
+<label>Estado Civil:</label>
+<input type="text" name="Estado Civil">
+
+<label>Profissão:</label>
+<input type="text" name="Profissao">
+
+<label>1. O que te motivou buscar terapia?</label>
+<textarea name="Q1"></textarea>
+
+<label>2. Já consultou psicólogo, terapeuta ou psiquiatra antes? Qual experiência?</label>
+<textarea name="Q2"></textarea>
+
+<label>3. Como você se sente em sua casa, dentro do contexto familiar?</label>
+<textarea name="Q3"></textarea>
+
+<label>4. Atualmente está tomando alguma medicação?</label>
+<div class="radio-group">
+<input type="radio" name="Q4" value="Sim"> Sim
+<input type="radio" name="Q4" value="Não"> Não
+</div>
+
+<label>5. Como é sua relação com seus pais?</label>
+<textarea name="Q5"></textarea>
+
+<label>6. O que pensa sobre sua aparência física?</label>
+<textarea name="Q6"></textarea>
+
+<label>7. Seus pais foram agressivos com você?</label>
+<div class="radio-group">
+<input type="radio" name="Q7" value="Sim"> Sim
+<input type="radio" name="Q7" value="Não"> Não
+</div>
+
+<label>8. O que te faz sentir tristeza ao lembrar do passado?</label>
+<textarea name="Q8"></textarea>
+
+<label>9. Quais são seus maiores medos hoje?</label>
+<textarea name="Q9"></textarea>
+
+<label>10. Você pensa muito no passado?</label>
+<div class="radio-group">
+<input type="radio" name="Q10" value="Sim"> Sim
+<input type="radio" name="Q10" value="Não"> Não
+</div>
+
+<label>11. Você acha que tem sido culpado pelos seus problemas pessoais?</label>
+<textarea name="Q11"></textarea>
+
+<label>12. Sente-se de alguma forma inferior?</label>
+<div class="radio-group">
+<input type="radio" name="Q12" value="Sim"> Sim
+<input type="radio" name="Q12" value="Não"> Não
+</div>
+
+<label>Se sim, por quê?</label>
+<textarea name="Q12_descricao"></textarea>
+
+<label>13. Duvida da sua própria capacidade?</label>
+<div class="radio-group">
+<input type="radio" name="Q13" value="Sim"> Sim
+<input type="radio" name="Q13" value="Não"> Não
+</div>
+
+<label>14. Como está seu sono?</label>
+<div class="radio-group">
+<input type="radio" name="Q14" value="Bom"> Bom
+<input type="radio" name="Q14" value="Regular"> Regular
+<input type="radio" name="Q14" value="Desorganizado"> Desorganizado
+</div>
+
+<label>15. Qual seu nível de estresse atual?</label>
+<div class="radio-group">
+<input type="radio" name="Q15" value="Baixo"> Baixo
+<input type="radio" name="Q15" value="Médio"> Médio
+<input type="radio" name="Q15" value="Alto"> Alto
+</div>
+
+<label>16. Quais sentimentos são mais comuns em você?</label>
+<div class="checkbox-group">
+<input type="checkbox" name="Sentimentos[]" value="Culpa"> Culpa
+<input type="checkbox" name="Sentimentos[]" value="Revolta"> Revolta
+<input type="checkbox" name="Sentimentos[]" value="Medo de perder o controle"> Medo de perder o controle
+<input type="checkbox" name="Sentimentos[]" value="Ressentimento"> Ressentimento
+<input type="checkbox" name="Sentimentos[]" value="Solidão"> Solidão
+<input type="checkbox" name="Sentimentos[]" value="Tristeza"> Tristeza
+<input type="checkbox" name="Sentimentos[]" value="Indecisão"> Indecisão
+<input type="checkbox" name="Sentimentos[]" value="Impaciência"> Impaciência
+<input type="checkbox" name="Sentimentos[]" value="Cansaço"> Cansaço
+<input type="checkbox" name="Sentimentos[]" value="Angústia"> Angústia
+</div>
+
+<label>Sintomas atuais:</label>
+<div class="checkbox-group">
+<input type="checkbox" name="Sintomas[]" value="Baixa autoestima"> Baixa autoestima
+<input type="checkbox" name="Sintomas[]" value="Oscilação de humor"> Oscilação de humor
+<input type="checkbox" name="Sintomas[]" value="Pânico"> Pânico
+<input type="checkbox" name="Sintomas[]" value="Vergonha"> Vergonha
+</div>
+
+<label>17. Você já vivenciou algumas dessas experiências?</label>
+<div class="checkbox-group">
+<input type="checkbox" name="Experiencias[]" value="Abandono"> Abandono
+<input type="checkbox" name="Experiencias[]" value="Abuso sexual"> Abuso sexual
+<input type="checkbox" name="Experiencias[]" value="Conflitos familiares"> Conflitos familiares
+<input type="checkbox" name="Experiencias[]" value="Dificuldade financeira"> Dificuldade financeira
+<input type="checkbox" name="Experiencias[]" value="Humilhação"> Humilhação
+<input type="checkbox" name="Experiencias[]" value="Traição"> Traição
+<input type="checkbox" name="Experiencias[]" value="Violência"> Violência
+</div>
+
+<label>18. O que mais te impede de avançar na vida hoje?</label>
+<textarea name="Q18"></textarea>
+
+<label>19. O que você espera alcançar com o processo terapêutico?</label>
+<textarea name="Q19"></textarea>
+
+<label>20. Declaro que as informações são verdadeiras e estou ciente que a terapia é um processo de autoconhecimento.</label>
+<div class="radio-group">
+<input type="radio" name="Declaracao" value="Concordo" required> Concordo
+</div>
+
+<button type="submit">Enviar Questionário</button>
+
+</form>
+</div>
+
+</body>
+</html>
